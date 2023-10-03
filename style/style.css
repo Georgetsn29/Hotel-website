@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 256px;
+    height: 149px;
+    background-color: #e0b973;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: 170px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: serif;
+}
+
+.lux {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #14274a;
+}
+
+.hot {
+    font-size: 15px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color: #14274a;
+}
+
+.nav {
+    position: absolute;
+    width: 699.79px;
+    height: 31px;
+    left: 750px;   
+    top: 59px; 
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav ul li a {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+.hotel-header-img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    color: #ffffff;
+    top: 250px;
+    left: 180px;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+.wel {
+    font-size: 40px;
+}
+
+.luxury {
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.hotels {
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.book {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.book-now-btn {
+    position: absolute;
+    background-color: #e0b973;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    left: 650px;
+    top: 600px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.book-now-btn:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.book-now-btn a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.book-now-btn img {
+    height: 22px;
+    width: 24px;
+    margin-top: -3px;
+    margin-right: 18px;
+}
+
+.scroll {
+    position: absolute;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 730px;
+    left: 740px;
+}
+
+.scroll img {
+    margin-top: 15px;
+}
+
+
+
+.all-our-room {
+    position: absolute;
+    font-size: 36px;
+    font-family: arial;
+    top: 950px;
+    left: 300px;
+}
+
+.luxury-redefined {
+    position: absolute;
+    top: 1100px;
+    width: 1269px;
+    height: 479px;
+    left: 150px;
+}
+
+.lux-stic {
+    position: absolute;
+    top: 110px;
+    width: 2px;
+    height: 300px;
+    background-color: #000000;
+}
+
+.lux-text {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
+
+.lux-big {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.lux-lil {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+.explore-btn {
+    position: absolute;
+    background-color: #e0b973;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.explore-btn:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.explore-btn a {
+    color: #ffffff;
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-block: 15px;
+    padding-inline: 40px;
+}
+
+.luxury-redefined img {
+    position: absolute;
+    height: 479px;
+    right: 0;
+    top: 0;
+}
+
+
+.leave-your {
+    position: absolute;
+    top: 1669px;
+    width: 1269px;
+    height: 479px;
+    left: 150px;
+}
+
+.leave-stic {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 2px;
+    height: 400px;
+    background-color: #000000;
+}
+
+.leave-text {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+}
+
+.leave-big {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.leave-lil {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+.explore-btn a {
+    color: #ffffff;
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.leave-your img {
+    position: absolute;
+    height: 479px;
+    width: 650px;
+    left: 0;
+    top: 0;
+}
+
+.testimonials {
+    position: absolute;
+    top: 2260px;
+    left: 400px;
+    width: 797px;
+    height: 257px;
+    text-align: center;
+}
+
+.testimonials-h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.testimonials-big {
+    margin-top: 26px;
+    margin-bottom: 19px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.testimonials-lil {
+    font-size: 25px;
+    font-family: arial;
+}
+
+.next-last {
+    position: absolute;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    left: 330px;
+    bottom: 0;
+}
+
+.next-last a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 14px 23px;
+}
+
+.left {
+    background-color: #e0b973;
+    padding: 14px 0px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.left:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.right {
+    background-color: #e0b973;
+    padding: 14px 0px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.right:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
