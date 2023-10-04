@@ -16,7 +16,7 @@ header {
     height: 149px;
     background-color: #e0b973;
     border-radius: 0px 0px 50px 50px;
-    margin-left: 170px;
+    left: 213px;
     text-align: center;
     padding-top: 30px;
     font-family: serif;
@@ -40,7 +40,7 @@ header {
     position: absolute;
     width: 699.79px;
     height: 31px;
-    left: 750px;   
+    left: 1011px;   
     top: 59px; 
     font-family: arial;
     letter-spacing: 1px;
@@ -66,38 +66,39 @@ header {
 .hotel-header-img {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 1920px;
+    height: 1080px;
 }
 
 .header-text {
     position: absolute;
     color: #ffffff;
-    top: 250px;
-    left: 180px;
+    top: 342px;
+    left: 213px;
     font-family: Arial;
     letter-spacing: 1px;
 }
 
 .wel {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .luxury {
-    font-size: 120px;
+    font-size: 154px;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: serif;
 }
 
 .hotels {
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 15px;
     font-weight: bold;
     font-family: serif;
 }
 
 .book {
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: 2px;
 }
 
@@ -107,8 +108,8 @@ header {
     display: flex;
     align-items: center;
     padding: 20px 30px;
-    left: 650px;
-    top: 600px;
+    left: 826px;
+    top: 778px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
@@ -142,8 +143,8 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    top: 730px;
-    left: 740px;
+    top: 936px;
+    left: 920px;
 }
 
 .scroll img {
@@ -156,16 +157,16 @@ header {
     position: absolute;
     font-size: 36px;
     font-family: arial;
-    top: 950px;
-    left: 300px;
+    top: 1163px;
+    left: 432px;
 }
 
 .luxury-redefined {
     position: absolute;
-    top: 1100px;
-    width: 1269px;
-    height: 479px;
-    left: 150px;
+    top: 1300px;
+    width: 1569.5px;
+    height: 579px;
+    left: 151.5px;
 }
 
 .lux-stic {
@@ -218,7 +219,8 @@ header {
 
 .luxury-redefined img {
     position: absolute;
-    height: 479px;
+    height: 579px;
+    width: 866px;
     right: 0;
     top: 0;
 }
@@ -226,10 +228,10 @@ header {
 
 .leave-your {
     position: absolute;
-    top: 1669px;
-    width: 1269px;
-    height: 479px;
-    left: 150px;
+    top: 1948px;
+    width: 1570.5px;
+    height: 487px;
+    left: 151.5px;
 }
 
 .leave-stic {
@@ -269,16 +271,16 @@ header {
 
 .leave-your img {
     position: absolute;
-    height: 479px;
-    width: 650px;
+    height: 487px;
+    width: 866px;
     left: 0;
     top: 0;
 }
 
 .testimonials {
     position: absolute;
-    top: 2260px;
-    left: 400px;
+    top: 2550px;
+    left: 561px;
     width: 797px;
     height: 257px;
     text-align: center;
@@ -307,7 +309,7 @@ header {
     width: 140px;
     display: flex;
     justify-content: space-between;
-    left: 330px;
+    left: 339px;
     bottom: 0;
 }
 
@@ -340,4 +342,138 @@ header {
 .right:hover {
     background-color: #cba968;
     transition: 0.5s;
+}
+
+
+footer {
+    position: absolute;
+    background-color: #14274a;
+    width: 100%;
+    height: 266.99px;
+    top: 2970px;
+}
+
+.triangle {
+    position: absolute;
+    top: -165px;
+    left: 875px;
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-bottom: 70px solid #14274a;
+}
+
+.footer {
+    position: absolute;
+    width: 1549px;
+    height: 111px;
+    left: 185px;
+    top: 90px;
+}
+
+.footer-address {
+    width: 264px;
+    height: 111px;
+    color: #ffffff;
+}
+
+.address {
+    position: absolute;
+    font-size: 14px;
+    bottom: 0;
+    font-family: arial;
+}
+
+.lux-footer {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.hot-footer {
+    position: absolute;
+    left: 24px;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.about-footer {
+    position: absolute;
+    top: 0;
+    left: 503px;
+    width: 155px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-footer a {
+    color: #ffffff;
+    font-family: arial;
+}
+
+.social-footer {
+    position: absolute;
+    width: 129.02px;
+    height: 86.02px;
+    top: 0;
+    left: 859px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-footer a {
+    color: #ffffff;
+    font-family: arial;
+}
+
+.social-footer a img {
+padding-right: 38px;
+}
+
+
+.email-footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 101px;
+}
+
+.email-footer p {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    font-family: arial;
+}
+
+.email-footer input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    height: 52px;
+    border: 2px solid #e0b973;
+    background-color: #14274a;
+    border-radius: 5px;
+}
+
+.email-footer input::placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: arial;
+    padding-left: 20px;
+}
+
+.email-footer button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #000000;
+    background-color: #e0b973;
+    border: none;
+    padding: 19px 31px;
+    border-radius: 5px;
+    cursor: pointer;
 }
