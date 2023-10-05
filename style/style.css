@@ -171,6 +171,7 @@ header {
     font-family: arial;
     top: 1163px;
     left: 432px;
+    color: #14274a;
 }
 
 .luxury-redefined {
@@ -179,6 +180,7 @@ header {
     width: 1569.5px;
     height: 579px;
     left: 151.5px;
+    color: #14274a;
 }
 
 .lux-stic {
@@ -186,7 +188,7 @@ header {
     top: 110px;
     width: 2px;
     height: 300px;
-    background-color: #000000;
+    background-color: #14274a;
 }
 
 .lux-text {
@@ -245,6 +247,7 @@ header {
     width: 1570.5px;
     height: 487px;
     left: 151.5px;
+    color: #14274a;
 }
 
 .leave-stic {
@@ -253,7 +256,7 @@ header {
     right: 0;
     width: 2px;
     height: 400px;
-    background-color: #000000;
+    background-color: #14274a;
 }
 
 .leave-text {
@@ -298,6 +301,7 @@ header {
     width: 797px;
     height: 257px;
     text-align: center;
+    color: #14274a;
 }
 
 .testimonials-h1 {
@@ -564,21 +568,166 @@ padding-right: 38px;
 
 .grid-text p {
     padding-top: 16px;
+    color: #14274a;
 }
 
 .terminals-facilities {
     position: absolute;
     top: 8583px;
-    left: 561px;
-    width: 797px;
-    height: 257px;
-    text-align: center;
 }
 
 .footer-facalities {
     position: absolute;
-    background-color: #14274a;
+    top: 9008px;
+}
+
+
+
+
+
+
+
+
+
+/*! rooms.html !*/
+
+.rooms-text {
+    position: relative;
+    top: 1161px;
+    left: 308px;
+    width: 1304px;
+    height: 208px;
+    text-align: center;
+    color: #14274a;
+}
+
+.rooms-text-big {
+    font-family: serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.rooms-text-lil {
+    font-family: arial;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+.rooms-container {
+    position: relative;
+    top: 1250px;
+    left: 157px;
+    width: 1604px;
+    height: 4068px;
+    color: #14274a;
+    font-family: arial;
+    display: grid;
+    gap: 81px;
+    grid-template-columns: 100px ;
+}
+
+.container-room {
+    position: relative;
+    width: 1604px;
+    height: 1302px;
+    border: 3px solid #14274a;
+    border-radius: 10px;
+}
+
+.container-room img {
+    position: absolute;
     width: 100%;
-    height: 266.99px;
+    height: 926px;
+    border-radius: 10px 10px 0 0;
+    transition: 0.5s;
+}
+
+.container-room img:hover {
+    filter: grayscale(0.3);
+    transition: 0.5s;
+}
+
+.container-text {
+    position: absolute;
+    width: 1599px;
+    height: 141px;
+    background-color: #14274a;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-block: 41px;
+    top: 925px;
+}
+
+.container-footer {
+    position: relative;
+    top: 1145px;
+    left: 166px;
+    width: 1274px;
+    height: 78px;
+}
+
+.view-room {
+    position: absolute;
+    left: 0;
+    width: 372px;
+    height: 51px;
+}
+
+.view-room p {
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 11px;
+    color: #14274a;
+}
+
+.view-room img {
+    width: 51px;
+    height: 51px;
+}
+
+.cost {
+    position: absolute;
+    right: 0;
+    background-color: #e0b973;
+    padding-block: 24.5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cost:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.cost a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-inline: 43.5px;
+    padding-block: 24.5px;
+}
+
+.terminals-room {
+    position: absolute;
+    top: 5599px;
+}
+
+.footer-room {
+    position: absolute;
+    top: 6025px;
+}
+
+.terminals-facilities {
+    position: absolute;
+    top: 8583px;
+}
+
+.footer-facalities {
+    position: absolute;
     top: 9008px;
 }

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css" media="screen and (max-width:1920px)">
     <title>Hotel</title>
 </head>
 <body>
 
     <header>
 
-        <img src="img/home-header.png" alt="home-header-img" class="hotel-header-img">
+        <img src="img/rooms-header.png" alt="rooms-header" class="hotel-header-img">
 
         <div class="logo">
             <p class="lux">LUXURY</p>
@@ -18,9 +18,9 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
-                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="rooms.html" class="active">Rooms</a></li>
                 <li><a href="#">Contact-us</a></li>
             </ul>
         </nav>
@@ -46,33 +46,75 @@
 
     <main>
 
-        <p class="all-our-room">All our room types are including complementary breakfast</p>
+        <div class="rooms-text">
+            <p class="rooms-text-big">ROOMS AND RATES</p>
+            <p class="rooms-text-lil">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes, <br> comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented <br> by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces.</p>
+        </div>
+        
 
-        <div class="luxury-redefined">
-            <div class="lux-stic"></div>
-            <div class="lux-text">
-                <p  class="lux-big">Luxury redefined</p>
-                <p class="lux-lil">Our rooms are designed to transport <br> you into an environment made for leisure. <br> Take your mind off the day-to-day of home <br> life and find a private paradise for yourself.</p>
-                <div class="explore-btn">
-                    <a href="#">EXPLORE</a>
+        <div class="rooms-container">
+
+            <div class="container-room">
+                <img src="img/single-room.png" alt="single-room">
+                <div class="container-text">
+                    <p>SINGLE ROOM</p>
+                </div>
+
+                <div class="container-footer">
+                    <div class="view-room">
+                        <a href="#">
+                            <img src="img/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </a>
+                        <p>VIEW ROOM DETAILS</p>
+                    </div>
+                    <div class="cost">
+                        <a href="#">$147 Avg/night</a>
+                    </div>
                 </div>
             </div>
-            <img src="img/luxury-redefined.png" alt="luxury-redefined">
-        </div>
 
-        <div class="leave-your">
-            <div class="leave-stic"></div>
-            <div class="leave-text">
-                <p  class="leave-big">Leave your worries in <br> the sand</p>
-                <p class="leave-lil">We love life at the beach. Being close <br> to the ocean with access to endless sandy <br> beach ensures a relaxed state of mind. It <br> seems like time stands still watching the <br> ocean.</p>
-                <div class="explore-btn">
-                    <a href="#">EXPLORE</a>
+            <div class="container-room">
+                <img src="img/double-room.png" alt="double-room">
+                <div class="container-text">
+                    <p>SINGLE ROOM</p>
+                </div>
+
+                <div class="container-footer">
+                    <div class="view-room">
+                        <a href="#">
+                            <img src="img/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </a>
+                        <p>VIEW ROOM DETAILS</p>
+                    </div>
+                    <div class="cost">
+                        <a href="#">$155 Avg/night</a>
+                    </div>
                 </div>
             </div>
-            <img src="img/leave-your.png" alt="leave-your">
+
+            <div class="container-room">
+                <img src="img/twin-room.png" alt="twin-room">
+                <div class="container-text">
+                    <p>SINGLE ROOM</p>
+                </div>
+
+                <div class="container-footer">
+                    <div class="view-room">
+                        <a href="#">
+                            <img src="img/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </a>
+                        <p>VIEW ROOM DETAILS</p>
+                    </div>
+                    <div class="cost">
+                        <a href="#">$155 Avg/night</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="testimonials">
+
+        <div class="testimonials terminals-room">
             <p class="testimonials-h1">testimonials</p>
             <p class="testimonials-big">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
             <p class="testimonials-lil">Mr. and Mrs. Baxter, UK</p>
@@ -90,7 +132,7 @@
 
     </main>
 
-    <footer>
+    <footer class="footer-room">
         <div class="triangle"></div>
         <div class="footer">
             <div class="footer-address">
@@ -114,13 +156,9 @@
             </div>
 
             <div class="email-footer">
-
                 <p>Subscribe to our newesletter</p>
-
                 <input type="email" name="email" id="email" placeholder="Email Address">
-                
                 <button>OK</button>
-
             </div>
         </div>
     </footer>
