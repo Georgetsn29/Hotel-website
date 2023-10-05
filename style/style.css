@@ -57,17 +57,29 @@ header {
     font-size: 25px;
     color: #ffffff;
     padding: 5px;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #dbdbdb;
+    transition: 0.3s;
 }
 
 .active {
     border-bottom: 3px solid #ffffff;
+    transition: 0.3s;
+}
+
+.active:hover {
+    border-bottom: 3px solid #dbdbdb;
 }
 
 .hotel-header-img {
     position: absolute;
     top: 0;
-    width: 1920px;
+    width: 100%;
     height: 1080px;
+    filter: brightness(0.6);
 }
 
 .header-text {
@@ -223,6 +235,7 @@ header {
     width: 866px;
     right: 0;
     top: 0;
+    filter: brightness(0.8);
 }
 
 
@@ -275,6 +288,7 @@ header {
     width: 866px;
     left: 0;
     top: 0;
+    filter: brightness(0.8);
 }
 
 .testimonials {
@@ -476,4 +490,95 @@ padding-right: 38px;
     padding: 19px 31px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*! facilities.html !*/
+
+.main-text {
+    position: absolute;
+    top: 1162px;
+    left: 193px;
+    width: 1540px;
+    height: 216px;
+    text-align: center;
+    color: #14274a;
+}
+
+.main-text-big {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.main-text-lil {
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    font-family: arial; 
+}
+
+
+.facilities-img {
+    position: relative;
+    top: 1460px;
+    width: 1580px;
+    height: 7010px;
+    left: 173px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 100px ;
+}
+
+.facilities-grid {
+    position: relative;
+    width: 1580px;
+    height: 1052px;
+}
+
+.facilities-grid img {
+    filter: brightness(0.7);
+    width: 1580px;
+    height: 1052px;
+}
+
+.grid-text {
+    position: absolute;
+    left: 448px;
+    bottom: -0.9px;
+    width: 684px;
+    height: 75px;
+    text-align: center;
+    font-family: arial;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.grid-text p {
+    padding-top: 16px;
+}
+
+.terminals-facilities {
+    position: absolute;
+    top: 8583px;
+    left: 561px;
+    width: 797px;
+    height: 257px;
+    text-align: center;
+}
+
+.footer-facalities {
+    position: absolute;
+    background-color: #14274a;
+    width: 100%;
+    height: 266.99px;
+    top: 9008px;
 }
