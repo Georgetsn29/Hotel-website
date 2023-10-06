@@ -851,7 +851,7 @@ padding-right: 38px;
 
 .footer-contact {
     position: absolute;
-    top: 2371px;
+    top: 2373px;
 }
 
 .contact-massege {
@@ -869,6 +869,12 @@ padding-right: 38px;
     gap: 10px;
     margin-bottom: 30px;
     margin-top: 8px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 8px; 
+    font-weight: 550;
+    border-radius: 5px;
 }
 
 .contact-massege label {
@@ -886,6 +892,8 @@ padding-right: 38px;
     font-size: 25px;
     padding: 5px;
     margin-top: 8px;
+    font-weight: 550;
+    border-radius: 5px;
 }
 
 .submit-btn {
