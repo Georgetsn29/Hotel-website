@@ -399,7 +399,7 @@ footer {
     position: absolute;
     font-size: 14px;
     bottom: 0;
-    font-family: arial;
+    font-family: arial;    
 }
 
 .lux-footer {
@@ -730,4 +730,174 @@ padding-right: 38px;
 .footer-facalities {
     position: absolute;
     top: 9008px;
+}
+
+
+
+
+
+
+
+
+
+
+/*! contact-us.html !*/
+
+.header-contact {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 465px;
+    background-color: #14274a;
+}
+
+.header-contact p {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 196px;
+    font-family: arial;
+}
+
+.contact-text {
+    position: relative;
+    top: 726px;
+    left: 202px;
+    width: 1509px;
+    height: 152px;
+}
+
+.contact-text-big {
+    position: absolute;
+    top: 0;
+    font-family: serif;
+    color: #14274a;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.contact-text-lil {
+    position: absolute;
+    bottom: 0;
+    font-family: arial;
+    font-size: 30px;
+    color: #14274a;
+}
+
+.contact-info {
+    position: relative;
+    top: 1045px;
+    left: 202px;
+    width: 653px;
+    height: 351px;
+}
+
+.contact-address {
+    color: #14274a;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.map-btn {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: arial;
+    color: #14274a;
+    padding-top: 28px;
+    cursor: pointer;
+}
+
+.contact-contacts {
+    position: absolute;
+    bottom: 30px;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.map-background {
+    position: relative;
+    width: 653px;
+    height: 300px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.google-map {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.map-close {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+
+.footer-contact {
+    position: absolute;
+    top: 2371px;
+}
+
+.contact-massege {
+    position: relative;
+    top: 580px;
+    left: 1141px;
+    width: 570px;
+    height: 809px;
+}
+
+.contact-massege input {
+    height: 78px;
+    width: 570px;
+    border: 2px solid #14274a9a;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+.contact-massege label {
+    color: #14274a;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.contact-massege textarea {
+    width: 570px;
+    height: 352px;
+    resize: none;
+    font-family: arial;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.submit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #e0b973;
+    padding: 24.5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.submit-btn:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.submit-btn a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
 }
