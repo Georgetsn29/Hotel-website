@@ -156,7 +156,8 @@ header {
     align-items: center;
     flex-direction: column;
     top: 936px;
-    left: 920px; 
+    left: 920px;
+    text-align: center;
 }
 
 .scroll a {
@@ -170,7 +171,17 @@ header {
     margin-top: 15px;
 }
 
+.scroll, .bottom {
+    height: 100vh;
+}
 
+.bottom {
+    position: absolute;
+    top: 1080px;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
 
 .all-our-room {
     position: absolute;
@@ -917,14 +928,481 @@ padding-right: 38px;
     font-weight: bold;
 }
 
-.scroll, .bottom {
-    height: 100vh;
-}
 
-.bottom {
-    position: absolute;
-    top: 1080px;
-    width: 100%;
-    height: 1px;
-    background-color: #000000;
+
+
+
+
+
+
+@media only screen and (max-width: 1536px) {
+
+
+    .logo {
+        position: absolute;
+        width: 204.8px;
+        height: 119.2px;
+        background-color: #e0b973;
+        border-radius: 0px 0px 50px 50px;
+        left: 170.4px;
+        text-align: center;
+        padding-top: 24px;
+        font-family: serif;
+    }
+    
+    .lux {
+        font-size: 32px;
+        letter-spacing: 1.6px;
+        font-weight: 900;
+        color: #14274a;
+    }
+    
+    .hot {
+        font-size: 12px;
+        letter-spacing: 4.8px;
+        font-weight: 600;
+        color: #14274a;
+    }
+
+    .nav {
+        position: absolute;
+        width: 559.8px;
+        height: 24.8px;
+        left: 808.8px;   
+        top: 47.2px; 
+        font-family: arial;
+        letter-spacing: 1px;
+    }
+    
+    .nav ul li a {
+        font-size: 20px;
+        color: #ffffff;
+        padding: 4px;
+        transition: 0.3s;
+    }   
+
+    .active {
+        border-bottom: 2.4px solid #ffffff;
+        transition: 0.3s;
+    }
+    
+    .active:hover {
+        border-bottom: 2.4px solid #dbdbdb;
+    }
+    
+    .hotel-header-img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 863px;
+        filter: brightness(0.6);
+    }
+    
+    .header-text {
+        position: absolute;
+        color: #ffffff;
+        top: 273.6px;
+        left: 170.4px;
+        font-family: Arial;
+        letter-spacing: 1px;
+    }
+    
+    .wel {
+        font-size: 40px;
+    }
+    
+    .luxury {
+        font-size: 123.2px;
+        font-weight: bold;
+        letter-spacing: 1.6px;
+        font-family: serif;
+    }
+    
+    .hotels {
+        font-size: 48px;
+        letter-spacing: 12px;
+        font-weight: bold;
+        font-family: serif;
+    }
+    
+    .book {
+        font-size: 20px;
+        letter-spacing: 1.6px;
+    }
+    
+    .book-now-btn {
+        position: absolute;
+        background-color: #e0b973;
+        display: flex;
+        align-items: center;
+        padding: 16px 24px;
+        left: 660.8px;
+        top: 622.4px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .book-now-btn a {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    .book-now-btn img {
+        height: 17.6px;
+        width: 19.2px;
+        margin-top: -2.4px;
+        margin-right: 14.4px;
+    }
+    
+    .scroll {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 748.8px;
+        left: 736px; 
+        height: 84.8px;
+        width: 63.2px;
+        text-align: center;
+    }
+    
+    .scroll a {
+        font-family: arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .scroll img {
+        margin-top: 12px;
+        width: 48.272px;
+        height: 48.672px;
+    }
+    
+    .scroll, .bottom {
+        height: 100vh;
+    }
+    
+    .bottom {
+        position: absolute;
+        top: 864px;
+        width: 100%;
+        height: 1px;
+        background-color: #000000;
+    }
+    
+    .all-our-room {
+        position: absolute;
+        font-size: 28.8px;
+        font-family: arial;
+        top: 930.4px;
+        left: 345.6px;
+        color: #14274a;
+    }
+    
+    .luxury-redefined {
+        position: absolute;
+        top: 1040px;
+        width: 1255.6px;
+        height: 463.2px;
+        left: 121.2px;
+        color: #14274a;
+    }
+    
+    .lux-stic {
+        position: absolute;
+        top: 88px;
+        width: 1.6px;
+        height: 240px;
+        background-color: #14274a;
+    }
+    
+    .lux-text {
+        position: absolute;
+        top: 88px;
+        left: 32px;
+    }
+    
+    .lux-big {
+        font-size: 48px;
+        font-weight: bold;
+        font-family: serif;
+    }
+    
+    .lux-lil {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 24px;
+        font-family: arial;
+    }
+    
+    .explore-btn {
+        position: absolute;
+        background-color: #e0b973;
+        padding: 12px 0px;
+        border-radius: 8px;
+    }
+    
+    .explore-btn a {
+        color: #ffffff;
+        font-family: arial;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding-block: 12px;
+        padding-inline: 32px;
+    }
+    
+    .luxury-redefined img {
+        position: absolute;
+        height: 463.2px;
+        width: 692.8px;
+        right: 0;
+        top: 0;
+        filter: brightness(0.8);
+    }
+    
+    
+    .leave-your {
+        position: absolute;
+        top: 1558.4px;
+        width: 1256.4px;
+        height: 389.6px;
+        left: 121.2px;
+        color: #14274a;
+    }
+    
+    .leave-stic {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 1.6px;
+        height: 320px;
+        background-color: #14274a;
+    }
+    
+    .leave-text {
+        position: absolute;
+        top: 36px;
+        right: 20px;
+    }
+    
+    .leave-big {
+        font-size: 38.4px;
+        font-weight: bold;
+        font-family: serif;
+    }
+    
+    .leave-lil {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 24px;
+        font-family: arial;
+    }
+    
+    .explore-btn a {
+        color: #ffffff;
+        font-family: arial;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+    
+    .leave-your img {
+        position: absolute;
+        height: 389.6px;
+        width: 708.8px;
+        left: 0;
+        top: 0;
+        filter: brightness(0.8);
+    }
+    
+    .testimonials {
+        position: absolute;
+        top: 2040px;
+        left: 448.8px;
+        width: 637.6px;
+        height: 205.6px;
+        text-align: center;
+        color: #14274a;
+    }
+    
+    .testimonials-h1 {
+        font-size: 48px;
+        font-weight: bold;
+        font-family: serif;
+    }
+    
+    .testimonials-big {
+        margin-top: 20.8px;
+        margin-bottom: 15.2px;
+        font-size: 24px;
+        font-family: arial;
+    }
+    
+    .testimonials-lil {
+        font-size: 20px;
+        font-family: arial;
+    }
+    
+    .next-last {
+        position: absolute;
+        width: 112px;
+        display: flex;
+        justify-content: space-between;
+        left: 271.2px;
+        bottom: 0;
+    }
+    
+    .next-last a {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 11.2px 18.4px;
+    }
+    
+    .left {
+        background-color: #e0b973;
+        padding: 11.2px 0px;
+        border-radius: 16px;
+        transition: 0.5s;
+    }
+    
+    .right {
+        background-color: #e0b973;
+        padding: 11.2px 0px;
+        border-radius: 16px;
+        transition: 0.5s;
+    }
+    
+    footer {
+        position: absolute;
+        background-color: #14274a;
+        width: 100%;
+        height: 213.6px;
+        top: 2376px;
+    }
+    
+    .triangle {
+        position: absolute;
+        top: -132px;
+        left: 700px;
+        width: 0;
+        height: 0;
+        border: 100px solid transparent;
+        border-bottom: 70px solid #14274a;
+    }
+    
+    .footer {
+        position: absolute;
+        width: 1239.2px;
+        height: 88.8px;
+        left: 148px;
+        top: 72px;
+    }
+    
+    .footer-address {
+        width: 211.2px;
+        height: 88.8px;
+        color: #ffffff;
+    }
+    
+    .address {
+        position: absolute;
+        font-size: 11.2px;
+        bottom: 0;
+        font-family: arial;    
+    }
+    
+    .lux-footer {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    
+    .hot-footer {
+        position: absolute;
+        left: 19.2px;
+        color: #ffffff;
+        font-size: 7.2px;
+    }
+    
+    .about-footer {
+        position: absolute;
+        top: 0;
+        left: 402.4px;
+        width: 140px;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .about-footer a {
+        color: #ffffff;
+        font-family: arial;
+        font-size: 12.8;
+    }
+
+    .social-footer {
+        position: absolute;
+        width: 129.02px;
+        height: 86.02px;
+        top: 0;
+        left: 687.2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .social-footer a {
+        color: #ffffff;
+        font-family: arial;
+    }
+    
+    .social-footer a img {
+    padding-right: 38px;
+    }
+    
+    
+    .email-footer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 230.4px;
+        height: 80.8px;
+    }
+
+    .email-footer input {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 224px;
+        height: 41.6px;
+        border: 1.6px solid #e0b973;
+        background-color: #14274a;
+        border-radius: 4px;
+    }
+    
+    .email-footer input::placeholder {
+        color: #ffffff;
+        font-size: 12.8px;
+        font-family: arial;
+        padding-left: 16px;
+    }
+    
+    .email-footer button {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #000000;
+        background-color: #e0b973;
+        border: none;
+        padding: 15.2px 24.8px;
+        width: 64px;
+        height: 41.6px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
 }
