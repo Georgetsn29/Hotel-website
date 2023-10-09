@@ -1287,7 +1287,7 @@ padding-right: 38px;
     .triangle {
         position: absolute;
         top: -132px;
-        left: 700px;
+        left: 680px;
         width: 0;
         height: 0;
         border: 100px solid transparent;
@@ -1404,5 +1404,536 @@ padding-right: 38px;
         border-radius: 4px;
         cursor: pointer;
     }
+
+
+
+
+
+    /*! facilities.html !*/
+
+.main-text {
+    position: absolute;
+    top: 929.6px;
+    left: 154.4px;
+    width: 1232px;
+    height: 172.8px;
+    text-align: center;
+    color: #14274a;
+}
+
+.main-text-big {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.main-text-lil {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-family: arial; 
+}
+
+
+.facilities-img {
+    position: relative;
+    top: 1168px;
+    width: 1264px;
+    height: 5608px;
+    left: 138.4px;
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 80px ;
+}
+
+.facilities-grid {
+    position: relative;
+    width: 1264px;
+    height: 841.6px;
+}
+
+.facilities-grid img {
+    filter: brightness(0.7);
+    width: 1264px;
+    height: 841.6px;
+}
+
+.grid-text {
+    position: absolute;
+    left: 358.4px;
+    bottom: -0.72px;
+    width: 547.2px;
+    height: 60px;
+    text-align: center;
+    font-family: arial;
+    font-size: 38.4px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.grid-text p {
+    padding-top: 12.8px;
+    color: #14274a;
+}
+
+.terminals-facilities {
+    position: absolute;
+    top: 6866.4px;
+}
+
+.footer-facalities {
+    position: absolute;
+    top: 7206.4px;
+}
+
+
+
+
+
+
+/*! rooms.html !*/
+
+.rooms-text {
+    position: relative;
+    top: 1161px;
+    left: 308px;
+    width: 1304px;
+    height: 208px;
+    text-align: center;
+    color: #14274a;
+}
+
+.rooms-text-big {
+    font-family: serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.rooms-text-lil {
+    font-family: arial;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+.rooms-container {
+    position: relative;
+    top: 1250px;
+    left: 157px;
+    width: 1604px;
+    height: 4068px;
+    color: #14274a;
+    font-family: arial;
+    display: grid;
+    gap: 81px;
+    grid-template-columns: 100px ;
+}
+
+.container-room {
+    position: relative;
+    width: 1604px;
+    height: 1302px;
+    border: 3px solid #14274a;
+    border-radius: 10px;
+}
+
+.container-room img {
+    position: absolute;
+    width: 100%;
+    height: 926px;
+    border-radius: 10px 10px 0 0;
+    transition: 0.5s;
+}
+
+.container-room img:hover {
+    filter: grayscale(0.3);
+    transition: 0.5s;
+}
+
+.container-text {
+    position: absolute;
+    width: 1599px;
+    height: 141px;
+    background-color: #14274a;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-block: 41px;
+    top: 925px;
+}
+
+.container-footer {
+    position: relative;
+    top: 1145px;
+    left: 166px;
+    width: 1274px;
+    height: 78px;
+}
+
+.view-room {
+    position: absolute;
+    left: 0;
+    width: 372px;
+    height: 51px;
+}
+
+.view-room p {
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 11px;
+    color: #14274a;
+}
+
+.view-room img {
+    width: 51px;
+    height: 51px;
+}
+
+.cost {
+    position: absolute;
+    right: 0;
+    background-color: #e0b973;
+    padding-block: 24.5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cost:hover {
+    background-color: #cba968;
+    transition: 0.5s;
+}
+
+.cost a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-inline: 43.5px;
+    padding-block: 24.5px;
+}
+
+.terminals-room {
+    position: absolute;
+    top: 5599px;
+}
+
+.footer-room {
+    position: absolute;
+    top: 6025px;
+}
+
+.footer-facalities {
+    position: absolute;
+    top: 7206.4px;
+}
+
+
+
+
+
+/*! rooms.html !*/
+
+.rooms-text {
+    position: relative;
+    top: 928.8px;
+    left: 246.4px;
+    width: 1043.2px;
+    height: 166.4px;
+    text-align: center;
+    color: #14274a;
+}
+
+.rooms-text-big {
+    font-family: serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.rooms-text-lil {
+    font-family: arial;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.rooms-container {
+    position: relative;
+    top: 1000px;
+    left: 125.6px;
+    width: 1283.2px;
+    height: 3254.4px;
+    color: #14274a;
+    font-family: arial;
+    display: grid;
+    gap: 64.8px;
+    grid-template-columns: 80px ;
+}
+
+.container-room {
+    position: relative;
+    width: 1283.2px;
+    height: 1041.6px;
+    border: 2.4px solid #14274a;
+    border-radius: 8px;
+}
+
+.container-room img {
+    position: absolute;
+    width: 100%;
+    height: 740.8px;
+    border-radius: 8px 8px 0 0;
+    transition: 0.5s;
+}
+
+.container-text {
+    position: absolute;
+    width: 1279.2px;
+    height: 112.8px;
+    background-color: #14274a;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-block: 32.8px;
+    top: 740px;
+}
+
+.container-footer {
+    position: relative;
+    top: 916px;
+    left: 132.8px;
+    width: 1019.2px;
+    height: 62.4px;
+}
+
+.view-room {
+    position: absolute;
+    left: 0;
+    width: 297.6px;
+    height: 40.8px;
+}
+
+.view-room p {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8.8px;
+    color: #14274a;
+}
+
+.view-room img {
+    width: 40.8px;
+    height: 40.8px;
+}
+
+.cost {
+    position: absolute;
+    right: 0;
+    background-color: #e0b973;
+    padding-block: 19.6px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.cost a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline: 34.8px;
+    padding-block: 19.6px;
+}
+
+.terminals-room {
+    position: absolute;
+    top: 4479.2px;
+}
+
+.footer-room {
+    position: absolute;
+    top: 4820px;
+}
+
+.terminals-facilities {
+    position: absolute;
+    top: 6866.4px;
+}
+
+.footer-facalities {
+    position: absolute;
+    top: 7206.4px;
+}
+
+
+
+
+
+
+
+/*! contact-us.html !*/
+
+.header-contact {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 372px;
+    background-color: #14274a;
+}
+
+.header-contact p {
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 156.8px;
+    font-family: arial;
+}
+
+.contact-text {
+    position: relative;
+    top: 580.8px;
+    left: 161.6px;
+    width: 1207.2px;
+    height: 121.6px;
+}
+
+.contact-text-big {
+    position: absolute;
+    top: 0;
+    font-family: serif;
+    color: #14274a;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.contact-text-lil {
+    position: absolute;
+    bottom: 0;
+    font-family: arial;
+    font-size: 24px;
+    color: #14274a;
+}
+
+.contact-info {
+    position: relative;
+    top: 836px;
+    left: 161.6px;
+    width: 522.4px;
+    height: 280.8px;
+}
+
+.contact-address {
+    color: #14274a;
+    font-size: 32px;
+    font-family: arial;
+}
+
+.map-btn {
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: arial;
+    color: #14274a;
+    padding-top: 22.4px;
+    cursor: pointer;
+}
+
+.contact-contacts {
+    position: absolute;
+    bottom: 24px;
+    font-size: 32px;
+    font-family: arial;
+}
+
+.map-background {
+    position: relative;
+    width: 522.4px;
+    height: 240px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.google-map {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    border-radius: 16px;
+}
+
+.map-close {
+    position: absolute;
+    top: 0;
+    height: 8px;
+    font-size: 48px;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+
+.footer-contact {
+    position: absolute;
+    top: 1898.4px;
+}
+
+.contact-massege {
+    position: relative;
+    top: 464px;
+    left: 912.8px;
+    width: 456px;
+    height: 647.2px;
+}
+
+.contact-massege input {
+    height: 62.4px;
+    width: 456px;
+    border: 1.6px solid #14274a9a;
+    gap: 8px;
+    margin-bottom: 24px;
+    margin-top: 6.4px;
+    font-family: arial;
+    font-size: 20px;
+    padding: 4px;
+    margin-top: 6.4px; 
+    font-weight: 440;
+    border-radius: 4px;
+}
+
+.contact-massege label {
+    color: #14274a;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 480;
+}
+
+.contact-massege textarea {
+    width: 456px;
+    height: 281.6px;
+    resize: none;
+    font-family: arial;
+    font-size: 20px;
+    padding: 4px;
+    margin-top: 6.4px;
+    font-weight: 440;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #e0b973;
+    padding: 19.6px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.submit-btn a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
     
 }
